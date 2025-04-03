@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#chat-box {
+    height: 300px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+#suggestions {
+    margin-bottom: 10px;
+}
+.suggestion-btn {
+    background: #e9ecef;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.suggestion-btn:hover {
+    background: #dee2e6;
+}
+.input-container {
+    display: flex;
+    gap: 5px;
+}
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#send-button, #voice-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#send-button {
+    background-color: #007bff;
+    color: white;
+}
+#send-button:hover {
+    background-color: #0056b3;
+}
+#voice-button {
+    background-color: #ff6b6b;
+    color: white;
+    width: 40px;
+}
+#typing {
+    color: #666;
+    font-style: italic;
+}
